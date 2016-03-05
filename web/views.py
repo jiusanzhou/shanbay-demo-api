@@ -1,9 +1,10 @@
 from django.views.generic import View
-# from api.models import Users
-# import requests as rq
 from django.shortcuts import render_to_response
 
-#from api.models import *
+# from api.models import *
+# from api.models import Users
+# import requests as rq
+# import json
 
 class WebView(View):
     """
@@ -12,8 +13,9 @@ class WebView(View):
 
     def get(self, r, *arg, **args):
         #return HttpResponse(os.path.join(os.path.dirname(__file__), 'templates').replace('\\','/'))
-        return render_to_response('index.html', {})
-        # return HttpResponse("John")
+
+        # _l = Levels(name="第一等级", counts="2000", description="这是第一个等级的描述!")
+        # _l.save()
 
         # _d = json.loads(open('./f.txt').read())
         # _r = _d['data']['reviews']
@@ -72,4 +74,5 @@ class WebView(View):
         #             d.save()
         #             w.definition.add(d)
         #     w.save()
+        return render_to_response('index.html', {})
 
