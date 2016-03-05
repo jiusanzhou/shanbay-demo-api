@@ -1,10 +1,5 @@
-from django.shortcuts import render
-from django.http import HttpResponse
-from django.http import HttpResponseRedirect
-from django.views.generic import View
-import os.path
-from api.models import Users
-import requests as rq
+# from api.models import Users
+# import requests as rq
 from django.shortcuts import render_to_response
 
 #from api.models import *
@@ -76,6 +71,4 @@ class WebView(View):
         #             d.save()
         #             w.definition.add(d)
         #     w.save()
-
-        return HttpResponse(json.dumps({'data':  {}}))
 
