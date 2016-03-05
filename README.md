@@ -98,4 +98,4 @@
 
 * REST framework 3.3.2 [主页](http://www.django-rest-framework.org/) [Github](https://github.com/tomchristie/django-rest-framework/)
 * Django-cors-header 1.1.0 Github](https://github.com/ottoyiu/django-cors-headers)
-  * 由于前端开发是用npm，跨域同意设置 `Access-Control-Allow-Origin: *`
+  * 由于前端开发是用npm，跨域统一设置 `Access-Control-Allow-Origin: *`
