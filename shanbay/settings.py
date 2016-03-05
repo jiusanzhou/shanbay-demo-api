@@ -101,12 +101,15 @@ WSGI_APPLICATION = 'shanbay.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',#'django.db.backends.sqlite3',
-        'NAME': 'djangodb',#os.path.join(BASE_DIR, 'db.sqlite3'),
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'django.db.backends.sqlite3',
+        os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'djangodb',
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'djangodb',
+        # 'USER': 'root',
+        # 'PASSWORD': '',
+        # 'HOST': '127.0.0.1',
+        # 'PORT': '3306',
     }
 }
 
