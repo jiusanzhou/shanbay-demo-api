@@ -1,3 +1,4 @@
+from django.views.generic import View
 # from api.models import Users
 # import requests as rq
 from django.shortcuts import render_to_response
