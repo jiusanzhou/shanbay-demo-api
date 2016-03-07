@@ -1,5 +1,7 @@
 # Shanbay Demo
 
+[演示地址](http://shanbaydemo.applinzi.com)
+
 您好，您之所以能看到这个页面，是因为，
 
 1. 您点击了右上角的“关于”；
